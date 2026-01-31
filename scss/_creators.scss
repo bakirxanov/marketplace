@@ -1,0 +1,58 @@
+.creators__card{
+    width: 240px;
+    height: 238px   ;
+    background-color: #3B3B3B;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.creators__card span{
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+    gap: 10px;
+
+}
+.creators__card img{
+    margin-bottom: 20px;
+    width: 110px;
+    height: 120px;
+}
+.creators__card h3{
+    font-family: 'Work Sans';
+font-weight: 600;
+font-style: SemiBold;
+font-size: 22px;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: center;
+text-transform: capitalize;
+color: white;
+
+}
+.creators__card span p{
+    font-family: 'Work Sans';
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: 0%;
+text-align: right;
+color: #858584;
+
+
+}
+.creators__card span strong{
+    font-family: 'Space Mono';
+font-weight: 400;
+font-style: Regular;
+font-size: 16px;
+line-height: 140%;
+letter-spacing: 0%;
+color: white;
+}
+.creators__wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
